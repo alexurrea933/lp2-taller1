@@ -1,0 +1,13 @@
+<html>
+    <head> <title> Mi Aplicacion </title> </head>
+    <body>
+        <h1> Bienvenido a la panaderia David Pan </h1>
+        <ol> 
+            {% for producto in productos %}
+               <li> {{ producto.nombre }}:{{ producto.precio }} </li>
+            {% endfor %}
+        </ol>
+    </body>
+
+
+</html>  
